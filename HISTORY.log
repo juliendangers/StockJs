@@ -1,0 +1,11 @@
+StockJs
+=======
+
+20/06/2014 :
+I've chosen not to install socket.io globally, no specific reason, mood of the day :)
+
+21/06/2014 :
+use bower for client dependencies
+
+22/06/2014 :
+install redis, hiredis

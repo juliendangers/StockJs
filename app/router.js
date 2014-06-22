@@ -1,7 +1,11 @@
-var http = require("http");
-var url  = require('url');
-var fs   = require('fs');
-var io   = require('socket.io');
+var http   = require("http"),
+    url    = require('url'),
+    fs     = require('fs'),
+    io     = require('socket.io'),
+    redis  = require("redis"),
+    client = redis.createClient();
+
+var SERVER_PORT = 8124;
 
 var server = http.createServer(function(request, response){
     console.log('Connection');
@@ -32,6 +36,6 @@ var server = http.createServer(function(request, response){
     response.end();
 });
 
-server.listen(8080);
+server.listen(SERVER_PORT);
 
 //var io.listen(server);
