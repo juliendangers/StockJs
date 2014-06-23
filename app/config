@@ -1,0 +1,13 @@
+var config = {};
+
+config.salt = "QjEpoQLkek,|XVlQF|mLyf2N;Ok%Q/wIU_^YhGS,0G6.-TGrI$1)L5`V<~SAi4+Q')";
+
+config.db.name     = 'stockjsdb'
+config.db.password = '';
+config.db.host     = '';
+
+config.redis.uri  = '';
+config.redis.host = '';
+config.redis.port = 6379;
+
+config.web.port = process.env.WEB_PORT || 9980;

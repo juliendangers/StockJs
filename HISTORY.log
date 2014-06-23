@@ -8,4 +8,7 @@ I've chosen not to install socket.io globally, no specific reason, mood of the d
 use bower for client dependencies
 
 22/06/2014 :
-install redis, hiredis
+install redis, hiredis (will be used for stock exchanges)
+
+23/06/2014
+user management

@@ -1,0 +1,13 @@
+{
+	"name": "StockJs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+  	"start": "node ./app/router.js"
+  },
+  "dependencies": {
+    "socket.io":"~1.0.6",
+    "bcrypt": "~0.7.8",
+    "redis": "~0.10.3",
+    "hiredis": "~0.1.17"
+}

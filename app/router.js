@@ -3,7 +3,8 @@ var http   = require("http"),
     fs     = require('fs'),
     io     = require('socket.io'),
     redis  = require("redis"),
-    client = redis.createClient();
+    client = redis.createClient(),
+    config = require('./config');
 
 var SERVER_PORT = 8124;
 
