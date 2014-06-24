@@ -3,5 +3,8 @@
   "name": "StockJs",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "angular": "~1.2.18",
+    "restangular": "1.4.0"
+  }
 }

@@ -4,7 +4,8 @@ var http   = require("http"),
     io     = require('socket.io'),
     redis  = require("redis"),
     client = redis.createClient(),
-    config = require('./config');
+    config = require('./config'),
+    users  = require('./lib/UserMgmnt');
 
 var SERVER_PORT = 8124;
 
